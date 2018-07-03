@@ -26,14 +26,10 @@ window.addEventListener('appinstalled', function() {
     console.log('Listen appInstalled...');
 })
 
-// Detecta se a página foi aberta através do ícone da home (ainda não funcionou)
+// Detecta se a página foi aberta através do ícone da home (só funcionou em produção - github page)
 if (window.matchMedia('(display-mode: standalone)').matches) {
-    alert('display-mode is standalone');
+    alert('Página aberta através do ícone da home');
   }
-
-function addHomeScreen() {
-    console.log('Prompt add to home screen');
-}
 
 // Registra o service worker
 function registerServiceWork() {
