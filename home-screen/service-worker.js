@@ -1,8 +1,8 @@
 let cacheName = 'pwa-home-screen-v.1.0.1';
 let filesToCache = [
     './',
-    '/index.html',
-    '/js/main.js'
+    './index.html',
+    './js/main.js'
 ];
 
 self.addEventListener('install', function (e) {
