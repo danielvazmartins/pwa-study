@@ -23,7 +23,7 @@ window.addEventListener('beforeinstallprompt', function(e) {
 
 // Evento disparado quando o ícone é adicionado na home screen (nao consegui ver esse evento)
 window.addEventListener('appinstalled', function() {
-    console.log('Listen appInstalled...');
+    alert('WebApp instalado com sucesso!');
 })
 
 // Detecta se a página foi aberta através do ícone da home (só funcionou em produção - github page)
