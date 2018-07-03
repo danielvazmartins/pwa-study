@@ -21,7 +21,7 @@ window.addEventListener('beforeinstallprompt', function(e) {
     });
 });
 
-// Evento disparado quando o ícone é adicionado na home screen (nao consegui ver esse evento)
+// Evento disparado quando o ícone é adicionado na home screen (só funcionou em produção - github page)
 window.addEventListener('appinstalled', function() {
     alert('WebApp instalado com sucesso!');
 })
