@@ -28,8 +28,8 @@ window.addEventListener('appinstalled', function() {
 
 // Detecta se a página foi aberta através do ícone da home (só funcionou em produção - github page)
 if (window.matchMedia('(display-mode: standalone)').matches) {
-    window.location.href = "http://m.viewit.com.br";
-    //alert('Página aberta através do ícone da home');
+    //window.location.href = "http://m.viewit.com.br";
+    alert('Página aberta através do ícone da home');
   }
 
 // Registra o service worker
@@ -44,4 +44,8 @@ function registerServiceWork() {
             console.log('erro', err);
         });
     }
+}
+
+function redirectSite() {
+    window.location.href = "https://m.viewit.com.br";
 }

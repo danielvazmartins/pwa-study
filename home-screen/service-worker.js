@@ -1,4 +1,4 @@
-let cacheName = 'pwa-home-screen-v.1.0.3';
+let cacheName = 'pwa-home-screen-v.1.0.4';
 let filesToCache = [
     './',
     './index.html',
